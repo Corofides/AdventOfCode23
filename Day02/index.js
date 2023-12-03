@@ -26,6 +26,35 @@ Utils.processFile('./Day02/input.txt', (game) => {
 
       return theRound;
     }),
+    minCubesForGame: function() {
+
+      const minCubes = {red: 0, green: 0, blue: 0};
+
+      this.rounds.forEach(round => {
+
+        if (round.hasOwnProperty('red')) {
+          if (round.red >= minCubes.red) {
+            minCubes.red = round.red;
+          }
+        }
+
+        if (round.hasOwnProperty('blue')) {
+          if (round.blue >= minCubes.blue) {
+            minCubes.blue = round.blue;
+          }
+        }
+
+        if (round.hasOwnProperty('green')) {
+          if (round.green >= minCubes.green) {
+            minCubes.green = round.green;
+          }
+        }
+
+      });
+
+      return minCubes;
+
+    },
     isValid: function(red = 0, green = 0, blue = 0) {
 
       let isValid = true;
@@ -72,19 +101,39 @@ Utils.processFile('./Day02/input.txt', (game) => {
     }
   });
 
-  const validGames = games.filter((game) => {
+  const getSumOfValidGameIds = (games, red, green, blue) => {
 
-    return game.isValid(12, 13, 14);
+    const validGames = games.filter((game) => {
 
-  });
+      return game.isValid(red, green, blue);
 
-  const totalOfIds = validGames.reduce((previousValue, currentGame) => {
+    });
 
-    return previousValue + currentGame.id;
+    return validGames.reduce((previousValue, currentGame) => {
 
-  }, 0);
+      return previousValue + currentGame.id;
 
-  console.log("Games", totalOfIds, validGames);
+    }, 0);
+
+  };
+
+
+  const getPowerOfMinCubes = (games) => {
+
+    const minCubes = games.map((game) => {
+      return game.minCubesForGame();
+    });
+
+    return minCubes.reduce((previousValue, currentGame) => {
+      return previousValue + (currentGame.red * currentGame.green * currentGame.blue);
+    }, 0);
+
+    //console.log("Minimum Cubes", minCubes);
+
+  };
+
+  console.log("Sum of Valid Game Ids", getSumOfValidGameIds(games, 12, 13, 14));
+  console.log("Power of Min Cubs", getPowerOfMinCubes(games));
 
 });
 
