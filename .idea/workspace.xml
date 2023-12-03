@@ -2,10 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9f38d991-eb30-4a0a-b578-563212d0c090" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/Day01/index.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/Day01/input.txt" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/Utils/Utils.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Day02/index.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Day02/input.txt" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -16,11 +15,31 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="index.js" pinned="false" current-in-tab="true">
+      <file leaf-file-name="index.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Day01/index.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="513">
-              <caret line="34" column="43" lean-forward="false" selection-start-line="34" selection-start-column="43" selection-end-line="34" selection-end-column="43" />
+            <state relative-caret-position="126">
+              <caret line="7" column="36" lean-forward="true" selection-start-line="7" selection-start-column="19" selection-end-line="7" selection-end-column="36" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Day02/index.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-555">
+              <caret line="15" column="22" lean-forward="false" selection-start-line="15" selection-start-column="22" selection-end-line="15" selection-end-column="22" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="input.txt" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Day02/input.txt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="782">
+              <caret line="99" column="101" lean-forward="false" selection-start-line="99" selection-start-column="101" selection-end-line="99" selection-end-column="101" />
               <folding />
             </state>
           </provider>
@@ -64,6 +83,8 @@
         <option value="$PROJECT_DIR$/Utils/Utils.js" />
         <option value="$PROJECT_DIR$/Day01/input.txt" />
         <option value="$PROJECT_DIR$/Day01/index.js" />
+        <option value="$PROJECT_DIR$/Day02/index.js" />
+        <option value="$PROJECT_DIR$/Day02/input.txt" />
       </list>
     </option>
   </component>
@@ -132,7 +153,7 @@
             <path>
               <item name="AdventOfCode23" type="b2602c69:ProjectViewProjectNode" />
               <item name="AdventOfCode23" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="Day01" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="Day02" type="2a2b976b:PhpTreeStructureProvider$1" />
             </path>
           </expand>
           <select />
@@ -173,12 +194,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1701512971966</updated>
-      <workItem from="1701512973294" duration="4329000" />
+      <workItem from="1701512973294" duration="6906000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="4329000" />
+    <option name="totallyTimeSpent" value="6906000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1280" y="25" width="1280" height="1330" extended-state="0" />
@@ -233,8 +254,24 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Day01/index.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="513">
-          <caret line="34" column="43" lean-forward="false" selection-start-line="34" selection-start-column="43" selection-end-line="34" selection-end-column="43" />
+        <state relative-caret-position="126">
+          <caret line="7" column="36" lean-forward="true" selection-start-line="7" selection-start-column="19" selection-end-line="7" selection-end-column="36" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Day02/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-555">
+          <caret line="15" column="22" lean-forward="false" selection-start-line="15" selection-start-column="22" selection-end-line="15" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Day02/input.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="782">
+          <caret line="99" column="101" lean-forward="false" selection-start-line="99" selection-start-column="101" selection-end-line="99" selection-end-column="101" />
           <folding />
         </state>
       </provider>
